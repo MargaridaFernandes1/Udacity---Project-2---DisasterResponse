@@ -1,14 +1,11 @@
 # Udacity-DisasterResponse
 Project 2 for Udacity Data Science NanoDegree
 
-- how to run the python scripts and the web app
-- explanation of the files in the repository
-
 ## Table of Contents
 
 1. [Summary](#Summary)
 2. [File Structure](#File Structure)
-3. [Required packages](#Required packages) 
+3. [Required packages](#Required packages)
 3.1 [Instructions to run the App](#Instructions to run the App)
 4. [Screenshots](#Screenshots)
 5. [Future Improvements](#Future Improvements)
@@ -16,12 +13,17 @@ Project 2 for Udacity Data Science NanoDegree
 
 ## Summary
 
-File Structure of the application
-repository data structure tree
+When a disaster happens a huge amount of messages are exchanged on digital channels, such as social media. These messages contain extremely valuable information and can be used to mobilize the help of the competent entities. The objective of this project is to help in the classification of these messages through Natural Language Processing and Machine Learning techniques, in order to effectively deliver them to the responsible organizations.
+
+
 
 ## File Structure
 
+File Structure of the application
+repository data structure tree
+
 ## Required packages
+write something
 
 ### Instructions to run the App
 
@@ -41,5 +43,7 @@ repository data structure tree
 The type of visualizations available on the web app
 
 ## Future Improvements
+Write something
 
 ## Licensing, Authors, and Acknowledgements
+write something
