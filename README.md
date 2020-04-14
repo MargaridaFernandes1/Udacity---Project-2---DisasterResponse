@@ -47,16 +47,19 @@ Udacity_Project2-DisasterResponse/
     
 ```
 I. app
-    * _templates:_ html files for the web application
-    * _run.py:_ file to run the web app
+* _templates:_ html files for the web application
+* _run.py:_ file to run the web app
+
 II. data
-    * _DisasterResponse.db:_ SQLite database with cleaned data; results as output of _process_data.py_
-    * _disaster_categories.csv:_ dataset including all categories
-    * _disaster_messages.csv:_ dataset including all messages
-    * _process_data.py:_ python script containing the ETL pipeline: read, clean and save data into a database
+* _DisasterResponse.db:_ SQLite database with cleaned data; results as output of _process_data.py_
+* _disaster_categories.csv:_ dataset including all categories
+* _disaster_messages.csv:_ dataset including all messages
+* _process_data.py:_ python script containing the ETL pipeline: read, clean and save data into a database
+
 III. models
-    * _train_classifier.py:_ python script containing the ML pipeline: loads data, applies NLP techniques and builds a model. The output is a classifier in a .pkl file. 
-    * _classifier.pkl:_ final classifier to classify new messafes, as output of _train_classifier.py_
+* _train_classifier.py:_ python script containing the ML pipeline: loads data, applies NLP techniques and builds a model. The output is a classifier in a .pkl file. 
+* _classifier.pkl:_ final classifier to classify new messafes, as output of _train_classifier.py_
+
 IV. _ETL Pipeline Preparation.ipynb:_ Jupyter notebook for the ETL pipeline preparation
 V. _ML Pipeline Preparation.ipynb:_ Jupyter notebook for the ML pipeline preparation and performance comparison of different classifiers
 
@@ -86,6 +89,7 @@ HTML
 ## Screenshots<a name="Screenshots"></a>
 
 When the app is launched successfully, the following visualizations are available:
+
 
 ## Licensing, Authors, and Acknowledgements<a name="Licensing"></a>
 I would like to ackonwledge Udacity for providing materials as part of the Data Scientist Nanodegree, useful insights and interesting challenges like this project! And a thank you to Figure Eight for providing the datasets.
