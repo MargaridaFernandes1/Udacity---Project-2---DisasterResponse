@@ -8,8 +8,7 @@ Project 2 for Udacity Data Science NanoDegree
 3. [Required packages](#Requiredpackages)
 4. [Instructions to run the App](#Instructions)
 5. [Screenshots](#Screenshots)
-6. [Future Improvements](#FutureImprovements)
-7. [Licensing, Authors, and Acknowledgements](#Licensing)
+6. [Acknowledgements](#Licensing)
 
 ## Summary<a name="Summary"></a>
 
@@ -61,6 +60,7 @@ III. models
 * _classifier.pkl:_ final classifier to classify new messafes, as output of _train_classifier.py_
 
 IV. _ETL Pipeline Preparation.ipynb:_ Jupyter notebook for the ETL pipeline preparation
+
 V. _ML Pipeline Preparation.ipynb:_ Jupyter notebook for the ML pipeline preparation and performance comparison of different classifiers
 
 ## Required packages<a name="Requiredpackages"></a>
@@ -90,6 +90,25 @@ HTML
 
 When the app is launched successfully, the following visualizations are available:
 
+1- **Distribution by Genre**  - shows the genre of the messages in the training set 
+![Distribution by Genre](https://github.com/MargaridaFernandes1/Udacity-Project2-DisasterResponse/blob/master/DisasterResponse%20-%20Distribution%20by%20Genre.PNG?raw=true "Distribution by Genre")
 
-## Licensing, Authors, and Acknowledgements<a name="Licensing"></a>
+2- **Number of Messages by Category** - shows the number of messages in each category
+
+Note that the frequency of messages is quite different from one category to another. This means that, especially for the categories on the right side of the graph, the training set is imbalanced, threfore less instances to learn from. As a consequence, the accuracy for these categories is lower, as well as the quality of the final classification.
+
+![Number of Messages by Category](https://github.com/MargaridaFernandes1/Udacity-Project2-DisasterResponse/blob/master/DisasterResponse%20-%20Count%20Messages.PNG)
+
+3- **Top 10 Categories** - shows the top 10 categories with more messages
+![Top 10 Categories](https://github.com/MargaridaFernandes1/Udacity-Project2-DisasterResponse/blob/master/DisasterResponse%20-%20Top%2010%20categories.PNG)
+
+4- **Word Cloud** - represents the most used words in the disaster messages, where the size is proportional to its frequency
+![Wordcloud](https://github.com/MargaridaFernandes1/Udacity-Project2-DisasterResponse/blob/master/DisasterResponse%20-%20WordCloud.PNG)
+
+5- **Word Cloud** - Word cloud representation obtained with a different method in the ETL_Pipeline_Preparation.ipynb notebook
+![Wordcloud notebook](https://github.com/MargaridaFernandes1/Udacity-Project2-DisasterResponse/blob/master/DisasterResponse%20-%20WordCloud%20(workspace).png)
+
+
+
+## Acknowledgements<a name="Licensing"></a>
 I would like to ackonwledge Udacity for providing materials as part of the Data Scientist Nanodegree, useful insights and interesting challenges like this project! And a thank you to Figure Eight for providing the datasets.
